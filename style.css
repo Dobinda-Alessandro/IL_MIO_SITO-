@@ -1,43 +1,107 @@
 .impostazione_titolo {
-  
-    background-image: url("immagini/cucina-gourmet.jpg") ;
+    
+    background-image: url("immagini/piatto-gourmet-ok.jpg")  ;
+    
     background-repeat: no-repeat;
     background-position: center;
-    background-position: bottom;
+    background-position: bottom ;
+
     height: 60vh;
     background-size:70% ;
-   
+    
  }
 
  h1 { font-size: 3cm;
-
-}
-.titolo {
-    position: absolute;
-    text-align: center;
-    top: +175px;
-    height: 80vh;
+    text-align: top ;
+    margin-left: 10cm;
     width: 100%;
+    height: 25cm;
+    position:absolute;
+    color: antiquewhite;
+    
 }
+
+
+.posizione_p1{
+text-align: center;
+}
+
 .tabella_argomenti {
     position:relative;
     margin-left: 40%;
     margin-top: 2cm;
 }
 
+
 ul {
-    list-style-image: url("immagini/broccolo.png") ;
+    list-style-type: none;
+  }
+  
+  
+  ul li:before {
+  
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: 30px;
+    background-image: url("immagini/broccolo.png");
+    background-repeat: no-repeat;
+    margin-right: 5px;
+  }
+
+.immagine_cibo_dietro {
+ background-image: url("immagini/cibo\ ripetuto.jpg") ;
+ background-repeat: repeat-x;
+ margin-top: 3cm;
+ height: 2cm;
+ 
+}
+
+.box_contenuto {
+    
+    max-width: 60%;
+    margin:0 auto;
+    margin-top: 3cm;
     
 }
-li {
-   
-    height: 1px
-    margin: 10px 0px 0px 0px;
+
+.contenuto {
+    line-height: 0.75cm;
 }
 
+.contenitore-biomol {
+    width: 100%;
+    height: 15cm;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1cm;
+}
 
-
-
+#item1 {
+    background-color: beige;
+    min-height: 25%;
+    width:25% ;
+  }
+  
+  #item2 {
+    background-color: beige;
+    min-height: 25%;
+    width:25% ;
+  }
+  
+  #item3 {
+    background-color:beige;
+    min-height: 25%;
+    width:25% ;
+  }
+  
+  #item4 {
+    background-color:beige ;
+    min-height: 25%;
+    width:25% ;
+  }
 
 .logo_testo {
     position:fixed;
