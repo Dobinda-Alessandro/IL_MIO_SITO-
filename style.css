@@ -1,32 +1,25 @@
 .impostazione_titolo {
-    
-    background-image: url("immagini/piatto-gourmet-ok.jpg")  ;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position: bottom ;
-
-    height: 60vh;
-    background-size:70% ;
-    
+  background-image: url("immagini/piatto-gourmet-ok.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom ;
+  height: 60vh;
+  background-size:70% ; 
  }
 
- h1 { font-size: 3cm;
-    text-align: top ;
-    margin-left: 10cm;
-    width: 100%;
-    height: 25cm;
-    position:absolute;
-    color: antiquewhite;
-    
+
+ h1 { 
+  font-size: 3cm;
+  text-align: top ;
+  margin-left: 10cm;
+  width: 100%;
+  height: 25cm;
+  position:absolute;
+  color: antiquewhite;   
 }
 
 
-.posizione_p1{
-text-align: center;
-}
-
-.tabella_argomenti {
+.indice {
     position:relative;
     margin-left: 40%;
     margin-top: 2cm;
@@ -34,20 +27,19 @@ text-align: center;
 
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
   }
-  
-  
-  ul li:before {
-  
-    content: '';
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    background-size: 30px;
-    background-image: url("immagini/broccolo.png");
-    background-repeat: no-repeat;
-    margin-right: 5px;
+
+
+ul li:before {
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-size: 30px;
+  background-image: url("immagini/broccolo.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
   }
 
   .box_p {
